@@ -16,7 +16,7 @@
 
 ### Nightmare Mode
 * Create a 'profile wall' subview for each student that allows users to leave comments
-* Persist those comments via the provided mongodb
+* Persist those comments via your local mongo database
 
 ### API Endpoints
 
