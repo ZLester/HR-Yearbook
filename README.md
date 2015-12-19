@@ -1,5 +1,9 @@
 #### HR Yearbook
 
+### Setup
+* Use `npm install` to grab all the required node modules
+* `npm start` and `npm run dev` are simple wrappers for `node server/server.js` and `nodemon server/server.js`, respectively
+
 ### Basic Requirements
 * Populate your Students collection with the `.fetch` method by hitting our mini-student data API at https://hr-yearbook.herokuapp.com/api/
 * Use the included router to create a `'cohort/:cohortNumber'` route that will populate the view with the correct cohort members
