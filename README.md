@@ -8,11 +8,13 @@
 * Populate your Students collection with the `.fetch` method by hitting our mini-student data API at https://hr-yearbook.herokuapp.com/api/
 * Use the included router to create a `'cohort/:cohortNumber'` route that will populate the view with the correct cohort members
 * Display the each cohort's students in a visually appealing way
-# Advanced Requirements
+
+### Advanced Requirements
 * Create a loading image that is removed when your collections finish updating
 * Animate the HR logo with pure CSS or JS
 * Create an information window or additional subviews that do or displays something useful (or silly!) when a user clicks on or mouses over a student
-# Nightmare Mode
+
+### Nightmare Mode
 * Create a 'profile wall' subview for each student that allows users to leave comments
 * Persist those comments via the provided mongodb
 
