@@ -7,7 +7,7 @@
 ### Basic Requirements
 * Populate your Students collection with the `.fetch` method by hitting our mini-student data API at https://hr-yearbook.herokuapp.com/api/
 * Use the included router to create a `'cohort/:cohortNumber'` route that will populate the view with the correct cohort members
-* Display the each cohort's students in a visually appealing way
+* Display each cohort's students in a visually appealing way
 
 ### Advanced Requirements
 * Create a loading image that is removed when your collections finish updating
