@@ -21,7 +21,6 @@
 ### API Endpoints
 
 #### Base URL: https://hr-yearbook.herokuapp.com/api/
-* Will be removed after the break, so be warned!
 
 #### Students
 * URL: '/api/students'
