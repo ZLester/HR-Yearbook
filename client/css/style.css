@@ -5,10 +5,12 @@ body {
   margin: 0;
   padding: 0;
 }
+
 #app-container {
   width: 100%;
   height: 100%;
 }
+
 #page-content-container {
   margin-top: 70px;
   width: 100%;
@@ -30,92 +32,3 @@ body {
   top: 50px;
   z-index: 100;
 }
-
-
-
-.navbar-logo {
-  width: 125px;
-  height: 125px;
-  float: left;
-}
-
-
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-.navbar-brand-group {
-  font-size: 28px;
-  margin-left: 30px;
-}
-
-.navbar-link-group {
-  margin-right: 30px;
-}
-
-.navbar-title {
- font-family: 'Roboto';
- padding-top: 10px;
- float:left;
-}
-.navbar-link {
-  float: right;
-}
-
-.navbar-title a, .navbar-link a {
-  display: block;
-  color: black;
-  text-align: center;
-  margin: 0px 20px 0px 20px;
-  text-decoration: none;
-}
-
-.navbar-title a {
-  height: 100px;
-}
-
-.navbar-link {
-  border-right: 1px solid #ccc;
-}
-
-.navbar-link:first-child {
-  border-right: none;
-}
-
-.navbar-link a:hover {
-  background-color: #FEFEFE;
-  color: #6699ff;
-  border-radius: 5px;
-}
-
-.landing-logo-group {
-  margin-top: 150px;
-  margin-left: 30%;
-}
-
-.hack-span {
-  font-size: 36px;
-  float: left;
-  clear: both;
-}
-
-.yearbook-span {
-  font-family: 'Pacifico';
-  margin-left: 50px;
-  margin-top: -10px;
-  font-size: 36px;
-  float: left;
-  clear: both;
-}
-
-.date-span {
-  font-size: 36px;
-  margin-left: 100px;
-  float: left;
-  clear: both;
-}
-

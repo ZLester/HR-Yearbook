@@ -1,7 +1,6 @@
 // spin.js http://fgnass.github.io/spin.js/
-var spinnerInit = function () {
-  $('#page-content-container').prepend('<div id="loading-image"></div>');
-  var opts = {
+var spinner = {
+  options: {
      lines: 20,
      length: 40,
      width: 4, 
@@ -18,10 +17,15 @@ var spinnerInit = function () {
      top: '50%',
      left: '50%',
      visibility: true
-  };
-  var spinner = new Spinner(opts).spin(document.getElementById('loading-image'));
-};
+  },
 
-var spinnerRemove = function() {
-  $('#loading-image').remove();
-}
+  start: function() {
+    $('#page-content-container').prepend('<div id="loading-image"></div>');
+    var spinner = new Spinner(this.options).spin(document.getElementById('loading-image'));
+  }, 
+
+  stop: function() {
+    $('#loading-image').remove();
+  }
+
+};
